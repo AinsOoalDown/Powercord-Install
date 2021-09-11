@@ -10,7 +10,7 @@
 Set-Location $env:USERPROFILE\Documents
 Get-Package -Provider chocolatey -Force
 #install dependencies
-Install-Package nodejs npm git discord-canary -Force -ProviderName chocolatey
+Install-Package nodejs git discord-canary -Force -ProviderName chocolatey
 
 #download powercord
 git clone https://github.com/powercord-org/powercord
