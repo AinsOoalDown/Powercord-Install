@@ -3,10 +3,10 @@ from git import Repo
 
 folder = os.path.expanduser('~\Documents\powercord\src\Powercord\plugins')
 
-pluginfile = open('output.txt')
+pluginfile = open('urls.txt')
 pluginlist = pluginfile.read()
 plugins = pluginlist.split()
-namefile = open('output.txt')
+namefile = open('names.txt')
 names = namefile.read().split()
 
 

@@ -26,7 +26,11 @@ for file in files:
     #append to array
     clone_url.append(config["url"])
 #write to output
-with open('output.txt', 'w') as output:
+with open('urls.txt', 'w') as output:
     for line in clone_url:
         output.write(line)
         output.write('\n')
+with open('names.txt','w') as names:
+    for file in files:
+        names.write(file)
+        names.write('\n')

@@ -1,7 +1,7 @@
-https://github.com/E-boi/account-switcher
+https://github.com/e-boi/account-switcher
 https://github.com/Juby210/bdCompat
 https://github.com/AAGaming00/better-connections
-https://github.com/GriefMoDz/better-status-indicators
+https://github.com/griefmodz/better-status-indicators
 https://github.com/doggybootsy/Better-user-popouts
 https://github.com/TaiAurori/channel-locker
 https://github.com/TaiAurori/embed-redirect
