@@ -15,3 +15,4 @@ Set-Location .\powercord
 npm i
 npm run plug
 pip3 install PyGithub requests
+pip install GitPython

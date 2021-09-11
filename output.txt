@@ -5,6 +5,7 @@ https://github.com/GriefMoDz/better-status-indicators
 https://github.com/doggybootsy/Better-user-popouts
 https://github.com/TaiAurori/channel-locker
 https://github.com/TaiAurori/embed-redirect
+https://github.com/VenPlugs/grammar-nazi
 https://github.com/SammCheese/invisible-chat
 https://github.com/TaiAurori/mtega
 https://github.com/Oocrop/multi-uploads
@@ -15,6 +16,8 @@ https://github.com/lorencerri/powercord-reverse-image-search
 https://github.com/notsapinho/powercord-together
 https://github.com/VenPlugs/PowercordPlayOnSpotify
 https://github.com/LandenStephenss/PowercordPluginDownloader
+https://github.com/ploogins/PowercordThemeDownloader
+https://github.com/E-boi/Privacy-Tab
 https://github.com/D-Brox/reload-from-tray
 https://github.com/12944qwerty/share-plugins
 https://github.com/E-boi/ShowConnections
@@ -22,3 +25,4 @@ https://github.com/redstonekasi/theme-toggler
 https://github.com/Neppkun/tnylnk-powercord
 https://github.com/12944qwerty/upload-commands
 https://github.com/RazerMoon/uploadToCloud
+https://github.com/DarkNeX/virus-checker

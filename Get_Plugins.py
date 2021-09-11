@@ -1,4 +1,3 @@
-from pickle import NONE
 import time
 from logging import exception
 from multiprocessing.connection import wait
@@ -48,11 +47,12 @@ for file in files:
     time.sleep(5)
     print("done")
 print(clone_url)
-with open('output.txt', 'w') as output:
+with open('output2.txt', 'w') as output:
     for line in clone_url:
         if type(line)==str:
             output.write(line)
             output.write('\n')
+            
 #print(search_commits('5986608aa0d4803df3a77eee73fbeca77836586d'))
 #    config.find('url')
 #    print(config)
