@@ -1,3 +1,4 @@
+$location = Get-Location
 #Self-elevate the script if required
 #if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
 #    if ([int](Get-CimInstance -Class Win32_OperatingSystem | Select-Object -ExpandProperty BuildNumber) -ge 6000) {
@@ -14,6 +15,8 @@ Install-Package nodejs -Force -ProviderName chocolatey
 Install-Package git -Force -ProviderName chocolatey
 Install-Package discord-canary -Force -ProviderName chocolatey
 
+
+
 #download powercord
 git clone https://github.com/powercord-org/powercord
 
@@ -27,5 +30,8 @@ npm run plug
 pip3 install PyGithub requests
 #install GitPython
 pip install GitPython
+
 #install plugins
-.\Install_Plugins.py
+Set-Location $location
+
+Start-Process .\Install_Plugins.py
