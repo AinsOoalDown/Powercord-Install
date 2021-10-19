@@ -1,4 +1,3 @@
-from logging import exception
 import os
 from git import Repo
 folder = os.path.expanduser('~\Documents\powercord\src\Powercord\plugins')
