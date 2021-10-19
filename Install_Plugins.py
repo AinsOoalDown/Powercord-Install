@@ -10,13 +10,12 @@ namefile = open('names.txt')
 names = namefile.read().split()
 
 
-for plugin in plugins:
-    for name in names:
-        try:
-            Repo.clone_from(plugin, folder+'\\'+name)
-            print(name)
-        except Exception:
-            continue
+for i in range(len(plugins)):
+    try:
+        Repo.clone_from(plugins[i], folder+'\\'+names[i])
+        print(names[i])
+    except Exception:
+        continue
 try:
     Repo.clone_from('https://github.com/ClearVision/ClearVision-v6',os.path.expanduser('~\Documents\powercord\src\Powercord\\themes\\ClearVision-v6'))
 except:
